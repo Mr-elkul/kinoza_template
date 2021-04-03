@@ -1,0 +1,29 @@
+html {
+    font-size: $font-size;
+    overflow-y: scroll;
+}
+
+body {
+    font-size: $font-size;
+    font-family: $font-main;
+}
+
+a {
+    color: $color-primary;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: $color-accent;
+    }
+
+    
+}
+
+h1 {
+    margin: 0;
+    font-family: $font-header;
+    font-size: 3rem;
+    margin-top: -($gap / 3 * 2);
+    margin-bottom: $gap * 3;
+}
