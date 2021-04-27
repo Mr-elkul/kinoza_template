@@ -67,7 +67,7 @@
 }
 
 .panel {
-    background-color: darken ($color-light, 8%);
+    background-color: darken($color-light, 8%);
     margin-bottom: $gap * 2;
     border: none;
 
@@ -110,7 +110,7 @@
 }
 
 .thumbnail {
-    transition: background-color 0.25;
+    transition: background-color 0.25s;
 }
 
 

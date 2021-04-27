@@ -40,7 +40,7 @@
 }
 
 .panel {
-  background-color: darken #ffffff, 8%;
+  background-color: #ebebeb;
   margin-bottom: 30px;
   border: none;
 }
@@ -77,9 +77,9 @@
 }
 
 .thumbnail {
-  -webkit-transition: background-color 0.25;
-  -o-transition: background-color 0.25;
-  transition: background-color 0.25;
+  -webkit-transition: background-color 0.25s;
+  -o-transition: background-color 0.25s;
+  transition: background-color 0.25s;
 }
 
 html {
