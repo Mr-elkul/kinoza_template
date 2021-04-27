@@ -35,10 +35,19 @@
 
 
 
+.navbar-header {
+    text-align: center;
+}
+
+.navbar-toggle {
+    float: none;
+    margin-right: 0;
+}
+
 .navbar-left {
     @include sm-min {
     > li {
-        padding: 5px 5px 5px 0;
+        margin: 5px 5px 5px 0;
         }
     }
     @include sm {
@@ -49,21 +58,12 @@
 .navbar-right {
     @include sm-min {
     > li {
-        padding: 5px 0 5px 5px;
+        margin: 5px 0 5px 5px;
         }
     }
     @include sm {
     margin-top: 0;
     }
-}
-
-.navbar-header {
-    text-align: center;
-}
-
-.navbar-toggle {
-    float: none;
-    margin-right: 0;
 }
 
 .panel {
