@@ -41,7 +41,8 @@
 $image-size: 75px;
 $image-size-with-padding: $image-size + 10;
 
-.site-news-item {
+.site-news {
+    &-item {
     clear: both;
     position: relative;
 
@@ -81,6 +82,13 @@ $image-size-with-padding: $image-size + 10;
         }
     }
 
+
+    &__date {
+        font-size: 0.8rem;
+        color: darken($color-gray, 30%);
+        text-align: right;
+    }
+
     &__title {
         margin-bottom: $gap / 3 * 2;
         
@@ -90,11 +98,7 @@ $image-size-with-padding: $image-size + 10;
         }
     }
 
-    &__date {
-        font-size: 0.8rem;
-        color: darken($color-gray, 30%);
-        text-align: right;
-    }
+}
 }
 
 .top-films {
